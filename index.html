@@ -1,0 +1,724 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Udemy Clone</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- NAVBAR AND HEADER -->
+    <header class="shadow-2xl h-[70px]">
+        <nav class="flex justify-between md:justify-around px-2 items-center pt-3">
+            <!-- BARS -->
+            <div class="md:hidden">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+            <!-- UDEMY LOGO IMAGE -->
+            <div>
+                <img class="w-20" src="https://www.udemy.com/staticx/udemy/images/v7/logo-udemy.svg" alt="">
+            </div>
+            <div class="hidden md:block">
+                <p class="text-sm">Categories</p>
+            </div>
+            <!-- SEARCHBAR -->
+            <div
+                class="hidden md:flex md:items-center md:border md:border-black md:rounded-full md:px-2 md:py-3 md:w-[40%] md:text-[14px]">
+                <i class="fa-solid fa-search pr-2"></i>
+                <input class="md:outline-none" type="text" name="" id="" placeholder="Search for anything">
+            </div>
+            <!-- TEACH AND BUSINESS -->
+            <div class="hidden lg:block text-sm">
+                <p>
+                    Udemy Buisness
+                </p>
+            </div>
+            <div class="hidden xl:block text-sm">
+                <p>
+                    Teach on Udemy
+                </p>
+            </div>
+            <div class="hidden md:block">
+                <i class="fa-solid fa-cart-shopping"></i>
+            </div>
+            <!-- BUTTONS -->
+            <div class="hidden md:block">
+                <button class="border border-black py-3 px-5 font-bold text-sm">Log in</button>
+                <button class="ml-2 border border-black py-3 px-5 font-bold bg-black text-white text-sm">Sign
+                    up</button>
+            </div>
+            <!-- GLOBE -->
+            <div class="hidden md:block border border-black">
+                <i class="fa-solid fa-globe  p-3"></i>
+            </div>
+            <!-- SEARCH AND SHOPPING -->
+            <div class="flex gap-4 md:hidden">
+                <i class="fa-solid fa-search"></i>
+                <i class="fa-solid fa-cart-shopping"></i>
+            </div>
+        </nav>
+    </header>
+
+
+    <!-- MAIN SECTION -->
+    <section>
+        <!-- IMAGE -->
+        <div
+            class="bg-[url('https://img-b.udemycdn.com/notices/web_carousel_slide/image/e6cc1a30-2dec-4dc5-b0f2-c5b656909d5b.jpg')] h-[200px] bg-cover bg-center  md:h-[300px] lg:h-[400px] md:relative">
+        </div>
+        <!-- IMAGE HEADING AND CONTENT -->
+        <div
+            class=" md:shadow-xl px-3 py-5 md:absolute md:top-[21%] md:left-[50px] md:bg-white md:w-[350px] lg:w-[450px]">
+            <h1 class="text-[23px] md:text-3xl font-bold pb-2">Learning that gets you</h1>
+            <p class="mb-8 lg:text-xl">Skill for your present (and your future). Get started with us.</p>
+        </div>
+        <!-- SEARCH COURSE -->
+        <div class="w-full px-5 md:hidden flex justify-start">
+            <div class="flex items-center justify-between border border-black w-[70%] md:w-[95%]">
+                <input class="w-[70%] px-3 py-3 text-[13px]" type="text" name="" id=""
+                    placeholder="What do you want to learn?">
+                <i class="fa-solid fa-search px-3"></i>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- COURSE SECTION -->
+    <section class="pt-16 px-5 mb-10">
+        <!-- STACK CONTENT -->
+        <div class="py-4">
+            <h1 class="font-bold text-2xl pb-2">A broad selection of courses</h1>
+            <p>Choose from over 210,000 online video courses with new additions published every month
+            </p>
+        </div>
+        <div class="border-t-2 py-4 md:border-t-0">
+            <!-- COURSES PROVIDED -->
+            <div class="flex gap-6 md:flex-wrap">
+                <span class="hidden md:block cursor-pointer hover:text-black text-gray-600 font-bold">Python</span>
+                <span class="hidden md:block cursor-pointer hover:text-black text-gray-600 font-bold">Excel</span>
+                <span class="font-bold cursor-pointer">Web Development</span>
+                <span class="hidden md:block cursor-pointer hover:text-black text-gray-600 font-bold">Java Script</span>
+                <span class="hidden md:block cursor-pointer hover:text-black text-gray-600 font-bold">Data
+                    Science</span>
+                <span class="hidden md:block cursor-pointer hover:text-black text-gray-600 font-bold">Amazon AWS</span>
+                <span class="hidden md:block cursor-pointer hover:text-black text-gray-600 font-bold">Drawing</span>
+            </div>
+            <div class="md:border-2 md:mt-4 md:py-8 md:px-6 ">
+                <div class="pb-8 hidden md:block ">
+                    <h1 class="font-bold md:text-[28px] pb-2 ">Built websites and applications with Web Development</h1>
+                    <p>
+                        The world of web development is as wide as the internet itself. Much of our social and
+                        vocational lives play out on the internet, which prompts new industries aimed at creating,
+                        managing, and debugging the websites and applications that we increasingly rely on.
+                    </p>
+                    <div class="mt-6">
+                        <span class="border border-black px-5 py-3 font-bold cursor-pointer hover:bg-gray-100">Explore
+                            Web Development</span>
+                    </div>
+                </div>
+                <!-- COURSES -->
+                <div class="flex justify-between gap-4 ">
+                    <div class="w-[350px]">
+                        <img class="h-32 mt-4" src="https://img-b.udemycdn.com/course/750x422/1565838_e54e_16.jpg"
+                            alt="">
+                        <h1 class="font-bold text-xl pt-2">The Complete 2023 Web Development Bootcamp</h1>
+                        <p class="text-sm text-gray-600">Dr. Angela Yu</p>
+                        <span class="text-sm">
+                            4.7
+                            <i class="fa-solid fa-star" style="color: #f7d345;"></i>
+                            <i class="fa-solid fa-star" style="color: #f7d345;"></i>
+                            <i class="fa-solid fa-star" style="color: #f7d345;"></i>
+                            <i class="fa-solid fa-star" style="color: #f7d345;"></i>
+                            <i class="fa-solid fa-star" style="color: #f7d345;"></i>
+                            (302,979)
+                        </span>
+                        <div class="font-bold mb-2">
+                            &#8377;3,199
+                        </div>
+                        <span class="text-[13px] p-1 bg-[#eceb98] font-bold">
+                            Bestseller
+                        </span>
+                    </div>
+                    <div class="w-[350px]">
+                        <img class="h-32 mt-4" src="https://img-c.udemycdn.com/course/750x422/625204_436a_3.jpg" alt="">
+                        <h1 class="font-bold text-xl pt-2">The Web Developer Bootcamp 2023</h1>
+                        <p class="text-sm text-gray-600">Colt Steele</p>
+                        <span class="text-sm">
+                            4.7
+                            <i class="fa-solid fa-star" style="color: #f7d345;"></i>
+                            <i class="fa-solid fa-star" style="color: #f7d345;"></i>
+                            <i class="fa-solid fa-star" style="color: #f7d345;"></i>
+                            <i class="fa-solid fa-star" style="color: #f7d345;"></i>
+                            <i class="fa-solid fa-star" style="color: #f7d345;"></i>
+                            (261,246)
+                        </span>
+                        <div class="font-bold mb-2">
+                            &#8377;3,199
+                        </div>
+                    </div>
+                    <div class="hidden sm:block w-[350px]">
+                        <img class="h-32 mt-4" src="https://img-b.udemycdn.com/course/750x422/965528_737d_7.jpg" alt="">
+                        <h1 class="font-bold text-xl pt-2">Web Development Masterclass - Online...</h1>
+                        <p class="text-sm text-gray-600">YouAccel Training</p>
+                        <span class="text-sm">
+                            4.7
+                            <i class="fa-solid fa-star" style="color: #f7d345;"></i>
+                            <i class="fa-solid fa-star" style="color: #f7d345;"></i>
+                            <i class="fa-solid fa-star" style="color: #f7d345;"></i>
+                            <i class="fa-solid fa-star" style="color: #f7d345;"></i>
+                            <i class="fa-solid fa-star" style="color: #f7d345;"></i>
+                            (9,199)
+                        </span>
+                        <div class="font-bold mb-2">
+                            &#8377;3,099
+                        </div>
+                    </div>
+                    <div class="hidden md:block w-[350px]">
+                        <img class="h-32 mt-4" src="https://img-c.udemycdn.com/course/750x422/1415652_ad99_4.jpg"
+                            alt="">
+                        <h1 class="font-bold text-xl pt-2">The Complete Web Developer Course 3.0</h1>
+                        <p class="text-sm text-gray-600">Rob Percival, Codestars</p>
+                        <span class="text-sm">
+                            4.5
+                            <i class="fa-solid fa-star" style="color: #f7d345;"></i>
+                            <i class="fa-solid fa-star" style="color: #f7d345;"></i>
+                            <i class="fa-solid fa-star" style="color: #f7d345;"></i>
+                            <i class="fa-solid fa-star" style="color: #f7d345;"></i>
+                            <i class="fa-solid fa-star" style="color: #f7d345;"></i>
+                            (71,399)
+                        </span>
+                        <div class="font-bold mb-2">
+                            &#8377;3,899
+                        </div>
+                    </div>
+                    <div class="hidden lg:block w-[350px]">
+                        <img class="h-32 mt-4" src="https://img-c.udemycdn.com/course/750x422/764164_de03_5.jpg" alt="">
+                        <h1 class="font-bold text-xl pt-2">The Complete Web Developer Course 3.0</h1>
+                        <p class="text-sm text-gray-600">Rob Percival, Codestars</p>
+                        <span class="text-sm">
+                            4.5
+                            <i class="fa-solid fa-star" style="color: #f7d345;"></i>
+                            <i class="fa-solid fa-star" style="color: #f7d345;"></i>
+                            <i class="fa-solid fa-star" style="color: #f7d345;"></i>
+                            <i class="fa-solid fa-star" style="color: #f7d345;"></i>
+                            <i class="fa-solid fa-star" style="color: #f7d345;"></i>
+                            (71,399)
+                        </span>
+                        <div class="font-bold mb-2">
+                            &#8377;3,899
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="py-4 md:hidden font-bold">
+            <div class="px-1 py-2 border-t-2 flex justify-between items-center">
+                <span>Excel</span>
+                <i class="fa-solid fa-chevron-down cursor-pointer"></i>
+            </div>
+            <div class="px-1 py-2 border-t-2 flex justify-between items-center">
+                <span>Python</span>
+                <i class="fa-solid fa-chevron-down cursor-pointer"></i>
+            </div>
+            <div class="px-1 py-2 border-t-2 flex justify-between items-center">
+                <span>JavaScript</span>
+                <i class="fa-solid fa-chevron-down cursor-pointer"></i>
+            </div>
+            <div class="px-1 py-2 border-t-2 flex justify-between items-center">
+                <span>Data Science </span>
+                <i class="fa-solid fa-chevron-down cursor-pointer"></i>
+            </div>
+            <div class="px-1 py-2 border-t-2 flex justify-between items-center">
+                <span>Amazon AWS </span>
+                <i class="fa-solid fa-chevron-down cursor-pointer"></i>
+            </div>
+            <div class="px-1 py-2 border-t-2 border-b-2 flex justify-between items-center">
+                <span>Drawing</span>
+                <i class="fa-solid fa-chevron-down cursor-pointer"></i>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- QUOTE SECTION -->
+    <section class="bg-[#f7f9fa] py-10 px-4">
+        <h1 class="font-bold text-2xl mb-5">How learners like you are achieving their goals</h1>
+        <div class="sm:flex sm:justify-around ">
+            <div class="border bg-white p-6 w-[100%] sm:w-[31%]">
+                <i class="fa-solid fa-quote-left"></i>
+                <p>
+                    I am proud to say that after a few months of taking this course...<span class="font-bold">I passed
+                        my exam and am now an AWS Certified Cloud Practitioner!</span> This content was exactly what the
+                    CCP exam covered.
+                </p>
+                <div class="pt-2 flex gap-2 pb-8 border-b-2">
+                    <div class="w-10 h-10 flex justify-center items-center rounded-full text-white bg-black">WA</div>
+                    <span class="font-bold">Will A</span>
+                </div>
+                <div class="py-4 flex items-center justify-between gap-2">
+                    <i class="fa-sharp fa-solid fa-circle-play text-4xl" style="color: #5624d0;"></i>
+                    <p class="text-[#5624d0] font-bold">[NEW] Ultimate AWS Certified Cloud Practitioner - 2022</p>
+                </div>
+            </div>
+            <div class="border bg-white p-6 w-[100%] sm:w-[31%]">
+                <i class="fa-solid fa-quote-left"></i>
+                <p>
+                    This course helped me
+                    <span class="font-bold">freshen up on my product manager skills and land a job at Facebook!</span>
+                    Even people with no prior knowledge of any visualization tools can become a master after completing
+                    this course.
+                </p>
+                <div class="pt-2 flex gap-2 pb-8 border-b-2">
+                    <div class="w-10 h-10 flex justify-center items-center rounded-full text-white bg-black">RF</div>
+                    <span class="font-bold">Ron F</span>
+                </div>
+                <div class="py-4 flex items-center justify-between gap-2">
+                    <i class="fa-sharp fa-solid fa-circle-play text-4xl" style="color: #5624d0;"></i>
+                    <p class="text-[#5624d0] font-bold">Become a Product Manager | Learn the Skills & Get the Job</p>
+                </div>
+            </div>
+            <div class="border bg-white p-6 w-[100%] sm:w-[31%]">
+                <i class="fa-solid fa-quote-left"></i>
+                <p>
+                    One of the best courses on management and leadership I have come across so far. The advice is
+                    practical, and examples highly relatable. <span class="font-bold">Would help anyone become a better
+                        manager.
+                    </span>
+                </p>
+                <div class="pt-2 flex gap-2 pb-8 border-b-2">
+                    <div class="w-10 h-10 flex justify-center items-center rounded-full text-white bg-black">PW</div>
+                    <span class="font-bold">Phillip W</span>
+                </div>
+                <div class="py-4 flex items-center justify-between gap-2">
+                    <i class="fa-sharp fa-solid fa-circle-play text-4xl" style="color: #5624d0;"></i>
+                    <p class="text-[#5624d0] font-bold">Leadership: Practical Leadership Skills</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- STUDENTS ARE VIEWING -->
+    <section class="px-5 mb-10">
+        <div class="pt-10">
+            <h1 class="font-bold text-2xl">Students are Viewing</h1>
+        </div>
+        <div class="py-1">
+            <!-- COURSES -->
+            <div class="flex justify-between gap-4 ">
+                <div class="w-[350px]">
+                    <img class="h-32 mt-4" src="https://img-b.udemycdn.com/course/750x422/1565838_e54e_16.jpg" alt="">
+                    <h1 class="font-bold text-xl pt-2">The Complete 2023 Web Development Bootcamp</h1>
+                    <p class="text-sm text-gray-600">Dr. Angela Yu</p>
+                    <span class="text-sm">
+                        4.7
+                        <i class="fa-solid fa-star" style="color: #f7d345;"></i>
+                        <i class="fa-solid fa-star" style="color: #f7d345;"></i>
+                        <i class="fa-solid fa-star" style="color: #f7d345;"></i>
+                        <i class="fa-solid fa-star" style="color: #f7d345;"></i>
+                        <i class="fa-solid fa-star" style="color: #f7d345;"></i>
+                        (302,979)
+                    </span>
+                    <div class="font-bold mb-2">
+                        &#8377;3,199
+                    </div>
+                    <span class="text-[13px] p-1 bg-[#eceb98] font-bold">
+                        Bestseller
+                    </span>
+                </div>
+                <div class="w-[350px]">
+                    <img class="h-32 mt-4"
+                        src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxISEBUSEBIVFRUVFRcVFRgYFRcXFhUVFRUXFxUVFRUYHSggGBolGxUXITEhJiorLi4uFx8zODMtNygtLi0BCgoKDg0OGxAQGi0lHyUtLS0tLy0tLy0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLf/AABEIAKgBKwMBIgACEQEDEQH/xAAcAAAABwEBAAAAAAAAAAAAAAAAAQIEBQYHAwj/xABKEAACAQICBQYKBwYEBQUAAAABAgADEQQhBQYSMUEiUWFxgdIHExcyUpGSk6GxFEJUc7LB8CMzNFNy0TViguEWJENj0xWiwvHy/8QAGwEAAQUBAQAAAAAAAAAAAAAABQABAgMEBgf/xAA/EQABAwIDAgoHBgYDAQAAAAABAAIDBBEhMUEFEhMVUVNhcYGRwdEUIlKhorHwBjI0gtLhFiNCcpLxJDPCsv/aAAwDAQACEQMRAD8AtmntKjC0vGFC/KC2BtvBN726JXv+Pk+zt7wd2PfCB/CD71fwvM3kNkbMpqim4SVtzcjMjk5CjjGgjFXv/j9Ps7e8Hdhf8fp/Ib3g7sosKFeIqH2D/k7zT7oV7Ov6fyG94O7C8oCfyG94O7KHCMXEdD7B/wAneajuhX3ygJ/Ib3g7sLyhJ/Ib3g7soUIxcRUPsH/J3mlYK++UNP5De8HdheUJP5De8HdlChR+IqD2D/k7zTWV/wDKGn2dveDuweUNPs7e8HdmfwouIaD2D/k7zUVoHlET7O3vB3YPKKn2dveDuzP4kx+IaDm/id5ploPlFT7O3vB3YPKMn2dveDuzPYUXENBzfxO8011oXlGT7O3tjuweUdPs7e8HdmeQGPxDQc38Tv1JrlaF5R0+zt7wd2DykJ9nf3g7szyJi4hoOb+J3mm3itE8pKfZ394O7B5SU+yv7Y7sztqiqeVmeIvkOuN2rg/WsP10wdPSbLiO62MuPQ51u+/mqXT2yWmHwjp9mf3i92F5S0+zt7a92ZfUTaHJZW9X9pFtdGyJUjm/WcztgoCcYMP733+YUPSHLZPKYn2Z/bXuwvKYn2Z/bXuzK8Jjtrkta/A8/WOEeGFYNj7MmbvMZ8Tr/wD0rBKTkVo/lMT7M/tr3YPKan2Z/bXuzOIUu4goOb+J36kuEctI8pqfZn94vdheU6n9mf3i92ZvCj8QbP5v4nfqS4Ry0nynU/sz+8XuwvKfT+yv7xe7M1hR/wCH9n838Tv1JuFdyrS/KhT+zP7xe7B5UKf2Z/eL3ZmcEX8P7P5v4nfqUeFfyrS/KjT+zP71e7B5Uaf2Z/er3ZmcSYv4f2fzfxO/Um4Z/KtY0T4REr16dEYdlNRwlzUBAvxts5y7zCNTv8Qw33yfiE3ecxt6igpJmNhbYFtziTjcjUnRaIXFwN1WvCB/CD71PwvM2mk+EH+EH3qfheZtDX2f/B/mPgtLMkIkwzEw4nKEKGYUSZEYUEKOmQhQQpJMhBBCiUUDEwGFEokoQQRJjqKMwoImOmQicQSALGxPHmHbxihGeJq8sgZ57I7OYQbtOZ0cQDcybdmqqlNhZOaGDUrmbnnznfB6rvVJKk5bsjYnmlx1T1cGyr1Bc77cBNFweBUAAKAOqck6exs1JkGpWC19D1qeVRD1rfLtjbFYBiu7aA5vOXs49s9DVdGIfqj1Ssax6o0qoJVdl+DDI/CJtSR94J3U4/pWDPSIPy/XCTdF7qDxtY9Y/Qg07o16dU0qo5X1W9Lr/vEaCw9WqWpIpZgNoC4uQLA2vvOYyhvZc9pgL4Ow8vespcIrlxsBnfC3WuhiYoxBM6dXFGYmKiY6YlFChwpJMighwolFFCggiTKX1N/xDDffJ+ITeJg+p3+IYb75PxCbxOI+1X4iP+3/ANFa6bIqs+EH+DH3qfheZvNU1soK+H2XvbbU5G2ey8olbQQ/6b9jD8x/aadhVMbKXdfh6x0wyCJw00j499ouoSCT2jtUcTWuV8WoGV3cgMf8uyCfXaRmI0e9Ko1OsCCh2SBmWJAIC84IIN+nshuOrgkeWMeC4ZgHJUOBabFNVpEi/TYc5PMBxnX6OOJ3ZNbPPgi87fD8+pPTa3JJXh/26fOec/okcujZyyzFMH6qc9Q8T+hfdV3XBsPa+dredzA8FvxacaiEGxHX0X4Hpj3d/l2e0UwfnUP66EsuVt1hex3ID9d+dzwEcFNdMYUVVSx484vvsd1xwhU1uwHOQPWZJJOMLgy2ZyHxMcnAJ0+udMXV2EuOodEjsP413tT23b0VDMfZF5AXOKhcnFDFYQpnvHy642lzw2q2Oq0wfolUXGYZdg+p7GQ2J1R0hT8/B1+sIXHaUvaM2VhwLhfrCiHg6jvUJCnbE4dqbbLix5j+YnOq9zewHQJcnSZomqGotF6C18YWbxg2kpq2yAh81mO8kjOwIsDxmdTZtA45jhaQdSjLTVWU7wVGze3C9r9sBfaCeoigaIHbu8cSMDboOYxzI5LaqccZeVXNbNRaNOma2DJXYzemzAqVG9lY5gjfYk5D15Poum1XE00FztPc9W/ObzpzEFsNWVcy1J1A6SpEyvwa4IVMRVq281VC9G0Tf4CAoqmofDad28W5E542zOvRfqVNVFuuaOW61PRRpoiqWVbAZEgfCWPCMCMiD1GU3FaRwOHI+kIxN1uRTZ7FjZbtznmEs+hsVh6lIVMMQUYAjKxsQCLg5jIg9sy7lhvWwVm9f1dVKRpjFHOJ3rgEWO4ypY3TGilqmlVqAVLi+VS2645QFrWzvui3S7ABLeDcSqn4U9HjxfjQM0Iueg8/655DeDFg+IcW5bUiQcr3VgCPiN00XS2i6VSiUB2qbrbztobJGRU80yfUBzS0miejUameo7SHrzsZqpp3RNLm5txF+pYqylZUfypL7r8DbDUa4qwaf1KxIqPVpbNUMzPZeSw2nJtsnI7+B7JX6WJNFKtGpR5Ti3LBVk7CL9I3Zzb9mNNJaIo4hdmvTV+Ykcpf6WGY7Jpp/tG+wZUt3hhiMDh0YA+7rRMUwjtwRtYW5cLW1usJhS8ae8HtRLvhG8YvoNYVB/SdzfA9cpFWmVYqwKsMiCCCDzEHMTraStgqm70Lr8uhHWM1gexzDYhJhQQTUq0IvEVtrZyA2VC8kWvbi3O3TOZgpoWIVQSSbADeTEQL3SDjaw1+h70md8NgqtT91Td+pGYesCXHQOq6LZq4Dv6O9F7PrHryl0wyWAAFhwguq2o2HBgv15efyROPZTyLym3Rr5fPsWdaq6DxSY7DO+HqhRWQk7BsBtDMkbh1zaJH4Rcx1yRnF7XrnVcrXOAFhbDrKiYGwmwN1EazH9gP61/C8qYaWzWj9wP61/C8qIhDZIvTdp+QXR7LH/H7T4KW0fpU012SDa+VumR+lKS13LsCrEW2gcwObOcxFgzY2Fsb+EZgeVXvpYnEkjNRb6IqBgEsRuBGWwvQPSPpR/W0ANkeLbZZRYXPJvxYZZN0xWH0nS8Y1MtZwbWOQNwCNk8d8k1eHKffLAZM1we2zMyb/iuIDeo3ORvfTQDtztan4rCvTNmW1rlSc1AvbxhbczngOqN//wBANw/7tXp5h+jcNJvtUnAsTsk5i4BAtulN39N+UA31v+5U5l5h+jbqraKSeWEPnYGk5WOY5baX5Lk2sScVxxQyB588/Oa+925husIjD0mZ0WmC7sQFVQSxa+QA4mTegtA1cdVNGgyBipqFqhI2wpALZAkLdgALcejLVfB9qSuCTxtYK2IYZkZikvoIec8T2bhKZ6pkIOruRWyStYOnkUZq/wCDdWUPjrm9j4lWsB0O43noXLpMvuj9H0aCbFCklJeZFCjrNt/XHsznHLV0hpCrhWrGnSpbVlH1tkhSbX5RJN7ncIGLnzE77sBj0DsQ2aZ2GpOACvNXSuHU2avSU8xqKPmYvD46lU/d1Uf+l1b5GYhpnAfR8RUo7QbYa20Ba+QO7gc8xzxjLvQmkXDvcsJrCDYt963PS+gcNil2cTRSpzEjlL/S45S9hmU63eCyrRvVwJatT402t41f6TkHHqI6ZZfBtrBWqVGw1Zi4CF0Zjdl2SAVJOZHK47rTRZBkstM+wPZofroW+CckXblyLCtA6urRs9SzVPgn9PT0ywKJadaNCjOvSHTUA/GPz9fPKyIHqpJXyF0hufDoXWUksb4gYxYfI9PmjA593GVjUTACm1YAHNkIuLck7Wz8LfGWhRIXU/FM+3tIQEquga3JYK5OTc42rWmYXLSs1bbeZfp8Fd8DglUbhnvyiq6BFOyAL23C3VunWhUFozqVQWO1fzsrbgJB26Bgs1jdPiL5HmH+8RSwFNfNRR1KoPrAhtVUnIndlYZeudA2We+SYAb3UMVG4rCgKQuQmeaI0DTXSHj1JLGu3J4DJiTfsHrmiaSq7KMSbWBNzuEqmjMdQq4paeHIYUgGdhfZLVEcix+tkCSeqRd6rTu9qk7dLhfNWoRQESIoQS5ayjAkXpzVzD4tbVk5QFldcnXqbiOg3EloGMeKaSJ4fG4gjUYFQcARYrG9YtScRhrsg8dT51HKUf50/MXHVOmjtXaVlDgu5ttDaIW/MLW+Mt2tunQp8Tci1i2R5V7kAHiPz6pGav4qmzH0+APNxI6Z6JRVdS6iE1R97MWwJGQLrYdJtYWxte600dJSsBe+xccmnG3++nTrQ0tqhSegFoqqVFzBGQJ4q3RzHh65CaqaIZWapUUhwSgBGa2yc9fDqHTL4Kk64bDB2vbdvPymFm0ZIY3CQ3BxvqP2PJporBTxsmE5GIv1X0NssNP2TPC0JJ0KMc08JaOEowDU1welLPdJoJHUCpCgsv3jdDpTcqK1nH7Af1j8LyqimeaWfWups4cEemvyaUs1ieM6nY0Dn0972G8fkFph2oKWLcDS5178g01x+SeinFCnGAedFqwx6IPaVLtv1Gkbe8/XuVf0/g6i1mqbJ2Gtyt4yUA35t0eaD0nUDKm1dTlnnbqMkqtXKReyq1A6jMG9huPZNTZA1oa7RDRXsfLeRlgTc47w+QPu7VP4jEhcuJnB8LSq+euZtcjIm27atvHXIwVSTcnMyRwsD1Eshk3sRyLoqeWCpadwhw1/cadqsPg81YP00YguSlJSSblWZ25KKQMtgLc26BlaavVqKqlmIVQLkk2AA4kndIDUTD7OEDcajs3YOSPw/GVvwn6UbxiYZTZQoqP/AJiSQoPVYntHNIgvqHgOP+guW2pI2OV+6MAbD661aG1ywANvpAy5lcjsIWxlG0jh8HUxFSumkvFl3ZxbD1brtcNoESqExJM3MpxH90n3eSBvqC/7wHv81O19FYMKxGkQzWJA+jVRtHfa5OVzxlfJgJhEy0XGZv3eACgbHIW7/ElWzwZNbHEnhQqH4pNSXSFM/W9YMyvwaUycVUbgtB7nmLFdkdtj6jLsTOX25XyU0zQwDEY3v4EcqM7OhbJEb8qs5sRzg/ESmacSnSBoqliLFTYbjxvvPESyaGrXQqfqnLqP6Mh9dKH7t+tT8x+cg8Mq4WSjT1s+8HlW6jIiqNx5w7sdPrpVZWUDRWMOE0modiKVdqtO1+SKjMrq2zuGTIt+maAJjPhDq/8ANFAclN7dJtmOyw7I0Dd4lp1CIbT9VrXchW/CmTSJQ8oA25r2yvIvQeNq1hst4unWDFTSYnMAgbSv9YZ8198gvBtrI+Iwg8cbsrGmW9KwFmPTYi8traNVyWtvme244tcFXE5rhcm3IbA94P7LviHqUkBfxYBFwNvPibDLM5cIWArPUTaZCm+wNr2vkct199t+ecRS0WikHZGW6wnXFYtUXfGe4XwSdYDA37LeJVU8JmkloYCrc8qopprnmWcEZdQueyVPwc6Xq16tSpXqbbKtFBcAWREqhQAoAy2j8ZG+GHFu1airE22Xa3C5IF+vKR/gyxWzWqL6QU+okf8Aym+nha6LHVYS4mcDsW206gO6dQZCYTE2krSqXgyrozEcMkTZIb7rs/n+6dAznWOUCtA8HFqkQqprPoxa68zr5jc3QedTM8qO9KpY3V0PaDwImu4nD3kfV0FRqsGqUlcjIXF8uYjj2w/srbXobTHIC5mg1B6LnI6jTMLO5p0UNq5pT6Tanl40bxzj0h0c/NL/AITCBECjtPOeJjbRuCSmLIiqOZQAPhJRBBe1Np+kusxu60aXvj3DsCvfUPe0B2nv61y8VFCnOwEUFgkylUF64MmR6o3j6qOSeqMZfTO3getRvdQWuh/5YfeL8nlG2peNdP4YfeL8nlGne7B/CfmPgoloKUGiw043hgwymMYXRzGlRI5vC2ZW5t1nfAm9NJL4I88ZKkc03tKzGCLFYzDI1wfGSHDIjNbNqn/B0beifxNM48IhP/qFT+mnb2B/vLt4O8aKmD2eNN2U9R5Y/F8JXfCno1hVp4gDksvi2PMyklb9YJ9mYYQGTlvWPFZ6wPcwl+d7nxVFJl30XqIvi1fF1XRmFxTQDaUHdtM18+i2XTKdo0A16QO41aYPUXF5sWNb9o0y7b2hJSRNMeZNlXs+mbM47+irB1Iwf8zEeul3YQ1IwXF8Qe2n3ZPkwiZy/H1b7Q7kX4up/ZXPB4ejQpeKw1PYUm7Em7uf8zGGTCJiCYLqKiSd+/KblbYomsG60YKW0F5z9Q/OMdfXtQp/ej8DyU0LQKoWO9vkN35yr+ErHBfE0yQLbVRrm1hkqk/+71TsNjRObBG09J7ySh04EkpH1goL6TyTzzCtZcb47F1ag3FyB1DIfAS8ay6zDYNLDtctkzjcBxCniTzyl6J0er4mmj+azAH8h2mw7ZukpRGTIAq+He5ohcb2OB8L9Gn+loPgkp/8q99xrMR7CD8ppuCxZXkkXla1dwQpJsAADgBuEsVKnunPSP3nlwW9g3WgJ3iMS1uStuuRyYck7TG5kmVynMpYSLlO6xnwv4RzXpuqkoqEEgXAO0TnzSraoYjYxIzzZSo6TkQOvL8uM3XEYUNVuwuCLGZj4RMBQpYtUoIqsEDVNnLlE3XduawvfpEJ7OkMjhEBy4+ayzt4M8L0jBXLCYoMAw3EXkrhcVaZtoDWDYuldsjmGtuJ33tz7/8A7lwwuJ2hdWBHOCCPhDEtPvtxRaJ0VWy7DjqNR2K20awM7gytYfGW4yTw+kAd85yq2a9pu0XUt1zcHd6k9i86JSE40qwO43ndGgaRhGag5q70xOyxurTqrTI5qqcF2WRunNKigoAzdvNHAA/XPR848q4hUUu7AKBck8JQNKaQ+kVy+4CyqOZR5t+nee2FdibL9LmLpB/LbnyE6N8TbQdK0UNLw7yXD1Rn4D60upbA4x6lVTUYtmOrfwG4Sfla0R569ayyzdtRobKA0WFtMNSpV4AeAOTxUHrp/DD7xfk8otpfNcB/y4+8X5NKZ4udDsH8J+Y+CFSShjrFNbQ5I0cNbM2va4zGQzzBDg+MBGSGFiaG1nflb73HLFzmxLH9qSc1hffF1Jk7SUwvADCKwSS0gApYaAvEXgjpCMK3+DjTIo4nxTGyVwF6qg8z13K9ZE1XFYdKiFKihlYWKkXBHSJ59UzXNR9aBiqYpVTasgzv/wBRR9cdPOO2Da2E/wDY3t81jrYf629qcU9SMCrh1pEFWDD9pUsCDcZbXOJ0xh/aN1mWGQeksMwYsBdTnfm65zG2xJJC04mxx1sLFZqMNa8gWF0zDZ559HPO4xCHdRv/AKmjQmdsFi/Fte17j9WnOU8rQ4Nc4AE4kta63eCiL2Ei4GPWR8inWDNOo2yaQG8+c3CP/odJOUVUAZkk5ADib5CMcM1jUxFWyIFZiTkAALk9QA3zDdfNfa2PqMlNmp4UGyoMi4H16vOTv2dw6851eyqPho957RmcdwDDQ2sM9AhtVLuOsCcsr960TWvwsYagCmDAxFT0sxRXt3v2ZdMxvWTTuIx1Q1MS5Y5AACyKBuAUZdpzkaId50scDW5IeXuKasCN4uIVNswQbEEEHiCNxj0NEtSU8JMx8hUd5ajqdrNSxKhKhCVwLEHIVP8AMn9t8vGCAnnUUeY/3lg0PrdjcNlTqll9Fxtj1nMeuA6jYxLt6I26D4HwKIRVwtZ/et32ZwqISZlg8KWLt+5o35+V8ryI0nrrj64INXxaneKY2OzauT6jMzdkVDjY2Hb5K41sQyx7POyvet2tVHCAqpD1iMkB8087kbh0bzMexVd6jtUclmc7TE8SYvxedybn59Jg2YbpKBlO07uJOZ8Or6uh81QZTjlyJvsmdKTspupIPOMviIu0IzZuKm6ndGa0unJrDaHP9Yf3lrwOk0qC9NgefnHWOEzVlnfRuKai/jF6iOBErMYOaLUe1pIiGy+s33gdB1t09hC1OljiNxj2lpphxv1ys0cSHUMpybMRXjpVJs2KT7zQV14pWPFxqrYusQG9fjEVtaiByUHbc/AESqmrElpQ3YNJe5Z7z5qTaCLUJ7pHStSseU1xwAyUdkb4YZziqx7QSEy2OGPg2AADQYLbZrG7rRYKa0R569ayyyuaJXlr1rLHOJ2sf5w6vErntof9g6vEqI1pF6A/rX5NKvSpc0teso/Y/wCsfJpXUIGZyAnRfZ8XpPzHwXEbaqTFLYcg8U421VGd78kbbC5uzD6y3bOoSbCVHEaaqL9e7HO29RexFRrNda9xY8BF6waZ2yEokgKQdoZFmF7FTxAOd+fPgJAsb5nfDYiatuyaWURGSo+87IHQaYHInM9l7G4ErS0sCf2g7Rn6xHikMLqQR0SuR7hcPVCGsmSrvz3235cRnE8NbiTZGmsd/SFMWgAjLCaUVsn5J5/q/wC0k1TmkCC3NOZrZrmFjjDsysGQlWU3BBsQRxBgWnO6UpAlUvqAFe9X9esgmMGe7xijI/1qN3WPUJdcLi6dRdqm6uOdSD8piq07C5yA3k5D1xjiNZadE/sSXfnRrKP9Y39l5hfRh5/l5+79kMc8OdZgv1fXzW9tRU71B7BAtJRuAHUBPOq6/wCkg+0MS1vROa9XKufjeOsX4SMa62V2U8/jD+EW+N5A7KlBwstbKfeHrOt0Yn5Yd5Cv/ho08KOB+jK37TEGxAOYpIQXJ6+SvSGMwQtx6p1xOIZ3ZmJZicyTck8SSd8bueSeiaIoxGCAb9P19aoZJi7Bd1G/oMVtRKDf0n8hFbHPNNlVdAWirCF4qDZtHASuhFXibw49kkNowEwQyYrJXSDCvDMSWtIpIQjFBoREVkrpLQrw2/tEDcOmRcnCtGrFa9Er6LD1Pcj4yZlP1dxXi64B81+Qesjkn17PrMvP0eTZKALFd3sSqElI1pzb6p8PdbtBTa0UqRytCdqeHjOqAEWMoTenSkhh6M6UML0Rtj9YMJhgfGVAzj6lOzPfmNsl7SIMmqHSO3IwSeQC6x1FWxgu42Vg0bR5QPTJmZLo/W+titIYamP2VHx6chTm3KFttvrdWQ6981qc7temlgkbwtrkXsNMSMdL9Vx0oC+pE7iW6YKva84tqWFDKAT4xRne2Yfm6pmmM0lVq5M2XojJfZ49s0PwjfwY+9T8NSZjOk+z34P8x8FnMEZk4QtG9y6oo60TRV69NKhsrMoOduIsL9JsO2NTEiHFKVpewtBsSCLjMXFr9mau2sujKK4ZnVEpsttkqoQknLZNvOvnKYtdgpQMQp3i+R7Iqtiqj2D1GYD0mLW6rnKcIrA5odsmjlooODkkLzcm+OANsBicML9ZQnTD4p08xiOjh6jlOZg2ja3Pv7I9kQKkl07WHoHrX+xES+sFc7mVepR+d5GGCR3G8iqMUfshdcTi3qfvHZuskjsG4RvFRMsAspAACwQItviKr2F/V1zpUqE7zfhG2JS+fN+ryExcGG2apncQwkfXSm6mG+49I+UBWAwcBZCV3w7cgHrPxilzznCkLqo4AZ/2nbbtwlrTgFHVLuRAzXnI1DJyjq6xTaaoFNr22TllfMy1jXPNm4quSRkQu82URAIaCET+vnGsppQhGGWA4ybw2r52q61zsmlgjjFCkG9xTNNWNsgRUBMi4huaQxUEYW+FtC28RG0OeSskifkm/CGHBg8b2zk9PiotKybZJ+tHiTZfVCv8oVQkoQd+XzESN0gTipDJGZP4XT+J2QFqnLlO7qpCC9gBlc39ZkBO2Gqi2y9yoO0FH1m3AH9fOSj3d4BwwKvgldG71SRfkNlY11rrjlkJsbkBQbdQ8+RsBff6hA+s+L8wMgqHM2RbUxxLE3z+UhuVt8DWI6lpKPgCB6uuc7LskAkUweW/1qjb9lb/AC7TNfo0PsDu+v36s9hqpz/We8+ae4zS1aspFSu5pL57Xttt6KoLDst0mQmIqbRuAFG4AbgOEXiK5YjKyjJVG5R+Z5zxjczVHG1gs0W7vBUOJcbkq16ArYdtI4P6OjJaogfa4ttDpPTnNtmA6lf4jhfvk/EJv84f7UN3J42gk+rrifvFEKd+/vOsBjoLDIaKreEf+CH3q/heZhNP8JH8EPvU/DUmXGFPs7+D/MfkFehDAiYUOKJRsM7RJhmFHTIRMVER0yBghQo4UShChxMdRQgghRJlJYXV561HxlHNgSCm4mw3qd1+iQlWkykqwKsMiCLEdBB3TQ9Q/wB3/rP4RLpjtBYbEoBiKSvlk25x1OMxOVl2mYaqSJ4u0ONrZjo0B+sVnkow4bzMPl+y8+navYR5RJ4ky5a0aj4ekGak9XcSASpF+GezeU6gCJspKqOYksJ+SxzROjA3lbtTNHCsdlVU1HfYBbcAFBJ3Gw3nsmiYXUYh1LVQUDAsq0yNoA32b7VgD1TMNUNNLhMXTrurMi7V1Ui/KQrtAE2JF5O65a40sUpGHpuhYoWdlpKw2NrzWS7EtdQbtayCwzMo2lLtN87IKU7kZbZzg1pxJIOJxHq2sAQb5Y4jJFTQetJL6zr3AucBhbAYe5OtcadPE6foUVAYbeHp1uINqm1UDc/INj1WnbC1qmIGOXF7RojF4elh1cWWnUbFbKpSUjk2p3uBw3ynaqaQTDY2liKgZlplmIWxNyjBTmfSYGM8bpLE1lUV69WoE80O7MFPRc5dc1QUnAxMhacGNaLnoOg7OXAYK10gcS46kq24m/0rTdXZsEpV0GXms2JpqluY7K5SW0rpKsMXj2Lkmho6mKdwGCmp9ELEAi1y2fXKxi9YmODeg2IxGIqVxSDmqf2dFKZ2ylJSzFmLAAubXAGUgn0lXZdlq1QrseKsXYjxYO0Kdr+bcA23ZCWCEuztoOwWx9yW/b66/NX/AAddqmFpYrzsb/6fijSfZBqMaOJCbQy5VRaRax3743wRNTCrjKwU4r6FjWFRkUs3iK1EUaxBFiwDum0Rc2lEp4iopQio4NO/i7Ow8Xc3JSx5Nyb5R1W01iXd3evUZqlM0nZm2i1IkEpdr2FwN0d1PnYjPzw6vJNvqR1rIelg6zKoq1cMzVWVVXb2a1REdlUAbWyuZtnaVCpUbhJTF416i01drikni0yAsm0zWy35uczzyNqEDj0euTf6rc7Z/MlJuJTenVLDPtna0ndEajYyqAUFMD0i9h6gL/CW/R3g2p0xtYmr4w+it1XtPnH4Qc7aNPG27n3PIMT5d5C1CmkcbAd6zTZuDa+W/wD3h0K+wSVAvwJ3jpHTLprpg0o0StNQq3UWAsN4P5SjQnsqRlVEZt22JA7AMevFTdT8EbE3K6ePOxsjIE3Y8W5rnm6JzZybXJy3dHVChQxgkiMEETEmU3qV/iOF+9T8Qm/zz/qV/iOF++T8QnoCcN9q/wATH/b/AOit1H909fgEw01oqniqXiqpYLtBuSQDcAgbwcs5BeT/AAvpVvaTuQQQFDXVMDNyKQgcgK1oeT/CenW9pO5C8n+E9Ot7SdyCCW8a1vOu70rBDyfYT063tp3IPJ9hPTre2ncggi41redd3prBF5PcJ6db2qfcg8nmE9Ot7dPuQQRca1vPO701gi8nmE9Ot7VPuQeTvCenX9pO5BBFxtW887vS3RyIeTvCenX9qn3IXk6wnp1/bTuQQRztWt553eluN5EPJ1hPTr+1T/8AHB5OcJ6df26f/jggi41reed3pbjeRSuitV6OHXZptUIuTyiDv6lEmUQAWggmJ80j3F7jcnMpwAo3SOg6dbzy46iB8xIDybYP06/tp3IcEsjqZoz6jyOoqD4mP+8LpY8HWE9Ov7adyH5O8J6db207kEEuG0qznXd6q9Hh9gIeTzCenW9pO5B5PMJ6db217kEEXGdZzru9P6ND7AQPg7wnp1vbTuQvJ3hPTre2ncggj8ZVnOu70vRofYCM+DvCenW9te5C8nWE9Ov7SdyCCLjKs513el6ND7AST4OMH6df207k5VPBhgja718jfz07kKCRdtCqOBkd3pxTxeyFadHaMSioVCxA5yD8hHNSiDvvBBMpcbZq6wUNpjVKhiRs1GqAXvyWUbutTIfyY4L0q/tp3IIJph2hVQM3IpHNHIDZRdG1xuQh5MMF6Vf2k7kHkwwXp1/aTuQQS3jev553eocDH7IReTDBelW9un3IPJfgvTr+2ncggi44r+ed3p+Bj9kJ1ozwe4ShWSsj1i1Ng63ZCLrzgJultggmaepmqCHSvLiMMTpn8ypMY1n3RZf/2Q=="
+                        alt="">
+                    <h1 class="font-bold text-xl pt-2">100 Days of Code: The Complete Python Pro...</h1>
+                    <p class="text-sm text-gray-600">Colt Steele</p>
+                    <span class="text-sm">
+                        4.7
+                        <i class="fa-solid fa-star" style="color: #f7d345;"></i>
+                        <i class="fa-solid fa-star" style="color: #f7d345;"></i>
+                        <i class="fa-solid fa-star" style="color: #f7d345;"></i>
+                        <i class="fa-solid fa-star" style="color: #f7d345;"></i>
+                        <i class="fa-solid fa-star" style="color: #f7d345;"></i>
+                        (214,479)
+                    </span>
+                    <div class="font-bold mb-2">
+                        &#8377;3,199
+                    </div>
+                    <span class="text-[13px] p-1 bg-[#eceb98] font-bold">
+                        Bestseller
+                    </span>
+                </div>
+                <div class="hidden sm:block w-[350px]">
+                    <img class="h-32 mt-4" src="https://img-c.udemycdn.com/course/240x135/2196488_8fc7_10.jpg" alt="">
+                    <h1 class="font-bold text-xl pt-2">[NEW] Ultimate AWS Certified Cloud Prac...</h1>
+                    <p class="text-sm text-gray-600">Stephane Maarek</p>
+                    <span class="text-sm">
+                        4.7
+                        <i class="fa-solid fa-star" style="color: #f7d345;"></i>
+                        <i class="fa-solid fa-star" style="color: #f7d345;"></i>
+                        <i class="fa-solid fa-star" style="color: #f7d345;"></i>
+                        <i class="fa-solid fa-star" style="color: #f7d345;"></i>
+                        <i class="fa-solid fa-star" style="color: #f7d345;"></i>
+                        (156,905)
+                    </span>
+                    <div class="font-bold mb-2">
+                        &#8377;3,199
+                    </div>
+                    <span class="text-[13px] p-1 bg-[#eceb98] font-bold">
+                        Bestseller
+                    </span>
+                </div>
+                <div class="hidden md:block w-[350px]">
+                    <img class="h-32 mt-4"
+                        src="data:image/jpeg;base64,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"
+                        alt="">
+                    <h1 class="font-bold text-xl pt-2">The Complete Python Bootcamp from Zer...</h1>
+                    <p class="text-sm text-gray-600">Jose Portilla</p>
+                    <span class="text-sm">
+                        4.6
+                        <i class="fa-solid fa-star" style="color: #f7d345;"></i>
+                        <i class="fa-solid fa-star" style="color: #f7d345;"></i>
+                        <i class="fa-solid fa-star" style="color: #f7d345;"></i>
+                        <i class="fa-solid fa-star" style="color: #f7d345;"></i>
+                        <i class="fa-solid fa-star" style="color: #f7d345;"></i>
+                        (370,596)
+                    </span>
+                    <div class="font-bold mb-2">
+                        &#8377;3,199
+                    </div>
+                </div>
+                <div class="hidden lg:block w-[350px]">
+                    <img class="h-32 mt-4"
+                        src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxQTEhUSExIWFhUVGBcVGBgVFRgYFhcXGBcYFxcZFRUYHSggGBolHRUXITEiJSkrLi4uFx80OTQsOCgtLisBCgoKDg0OGxAQGi0lHyUtLS0uLSstLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLf/AABEIAKgBKwMBIgACEQEDEQH/xAAbAAEAAgMBAQAAAAAAAAAAAAAAAQIEBgcDBf/EAEQQAAECAwMJBQUHAgMJAAAAAAEAAgMRIQQxQQUGElFhcYGRoRMiscHwBzJSctEjQmKCkuHxFKIzQ2MVNESDsrPC0uL/xAAZAQEAAwEBAAAAAAAAAAAAAAAAAQIDBAX/xAAvEQACAgEDAwIEBQUBAAAAAAAAAQIRAxIhMQRBURNxImGR8BQyYoGhQlKxwdEF/9oADAMBAAIRAxEAPwDSERJIAiIgCIiAIiIAiIgCIiAIiIAiIgCIiAIiIAiIgCIiAIiIAiIgCIiAIiIAiIgCIiAIiIC2jSeE5JOktsz5eJUFxlLBFHuCWyrrwUNEzJQCrMHgSjBUqXNkoVok5md8zNSCskVnm7YJeZ6lKS2zQFUV2ihPqZ/gqrWzMgosEIiEKQEREAREQBF9DJuRLRHrCgucPilJn63SC2Cy+z2Offiw2btJ540A6qUmyrklyaei35vs4GNpPCF/9qkX2cu+7aQfmhkdQ4qdDI9SJoiLZLbmRa4dQ1sQf6bpn9LpHlNa9GguY4te1zXC8OBaRvBqqtUWTT4KIiISEREAREQBERAEREAREQBERAEREBLRMy10QunLYpBkZ6vU1WSjuC06S2+H89EaKE7hzn9OqRDMzlKfqmxDKQ14+XrcooBg4SmeSgCdFZtxO4efkoh47j1EvNL5BB2BS40HXfM/sobfW5HumSddVILYb/Aa/WtQ3EzuHmB5r0jNaAJX78NuorynRQnaAA9BHumSddVLDfLUeSqFPcF4l9NihwoNon1I8lDzM0El9bIOQ32qKGNo0AF7zc0G6WskUA2HAIuxDdGNkrJEW0O0ITZnEmjWjW52A6mRkujZDzLgQZOiARomtw7gP4WeZnwX28mZOhwIYhQmyaObjiXHErXc4c82wyYdnk94oXmrG/L8Z6b7lsoJbsxc3J0jao0ZrG6T3NY0YuIaBxK+Fa88rKyge6If9Ns+rpDqub222xIztKK9zz+I3bhcBsCx1DyeESsPk6E7P+FhBicS0eZV4OftnPvQ4rdsmkdHT6LnSJ6j+Rb0onXrBl6zxqQ4zST913ddwa6RPBZGUcnQo7dGLDa8YTFR8rr2ncuML7+Rc6o8CQJ7SH8LySQPwOvbuqNilTT5KvE1ujJzizGfDBiWcmIwVLDWI35Ze+Ou9acu15HyvCtLNOG673mmjmn8Q87lr+eWaYjAx4DZRRVzRdE1yHx+KiUPAhk7SOaIhRZmwREQBERAEREAREQBERAEREBLWznLCvJAJqSKDb9Uh070rj1wVbBVWfhLUPCZ6zRt9blDzMkqe4JlS/G7zUB1+1TEEjLYOcqoaDfX6VUAQzW6aqrNoCddPBQyU63eqKQTEvO9HNlKt9VF6mIKmV0ynyBEqT4KYZv3H6eaOmABx56+CA0I1kdJ/UKOUD1sdndEe2GwTc8hoG069i7HkLJLLNCEJlcXOxc43k+A2ALTvZnkubn2lw937Nm8ibzyIH5itmzvyv8A08A6JlEidxmz4ncB1IW8F3Zhkk29KPgZ65ykl1mgukBSI4YnFjTq167tc9JRAs5Sb3NoRS2R9uw2eFDgiNGbpl5kxuzAy4eClr7LFoWOguwIIDOOHQb155b/AMKyjDsh4MXx115MnpPQoppJcrm1bd8/zseP03T/AIqDzynNScpVUmlFKTSWn8vbe1vbM3KWTXwT3qtNzm+6foVk2LI829rGd2cPbRx3avVF9HIxLIGlHc0wiRoBwnuMvhxlsmsHOZkTtA5xmw+5o+6NnzbcVeWHHCHq03+l9r8/p8eTKHWdRly/hNSTTac0vzVVqKfwqe/xbtKrRcW6yt7ogFwxc4DS3iZ+ixctWJsNzXQ/8OI3Tbsnh1HNfNX2co/7pAJv0iOEn/QLPX6sJKSWytUku/Ht7nS8P4XNicJyepuMtUnK/hbT37prsfPydbnwIgiQ3ScORGIcMQV1bIeVmWmEIjaG5zcWOxG7EFcgX2M1cr/00cEn7N8mxNUsHflNd09a54SrZ8Ho5IWrXJk585F7N5jNFHHv/Mbn8cdu9aqRJdpy3YmxIZBExKR3H6Xrjdss7ob3Md7zSQdu3ik1TIxStUeKK0Q15DkJKTKQlfiszUoisG0J1KGiaWCERFICIiAIiIAiIgJP7euaTp1/hS8SN81BbQHWoBLDLCdD6KhgmQNZAUtuPAecunRQyU63J5BBPBWiXy2DwVQpdfW9KBLrhTWd/qS9bPEAnMLyfOk9XQ180nTj5CXnzUNWqBVCrNlWeqm9IbZkDWQpYIKkkgS11+m791Ve0OFpxGs+ItZzk1K7A6/mvYuxssFkq6Ac75n949TLgtGz8t3aWos+7CAYN57zjzMvyrpwGC4rbo2nFiP+J7nc3E+a2ntGjDFvKzxWRZbG+IZMa53gN5NAsvI2T2v0okQyhsv2kV0fWsK9sy4892EOzYKAM7p4nDgrRxRUVPI9nwly/rsl82YZepySyPF08U2uZSvTHvW27lW9Lhdz6tpyVpQITYr2wzDABN4lcBMkagvKxZGs7pkRHPDZE1bo66mV1PiWLkGJ2jYsB5J02l4Lq94U+h4K+VniBBbZ2nvOGm8jdI8zTcF3XicfWcFVd93a2S8eOx4WjqY5H0ccrU3K1pSUdMvilLhuk21SfNUZFtt9liy0zEIbcGghvIr1s0azRWCzgvIPuh94l8DivDJmbzSwOiF03NnJplIG6Z1rByzkswC17HO0S6hPvNeKiuN3RJSzxj6s4Rp8+aIhi6HJNdLhzZLi3pt/CpK+Nqu/FXvT4MmPkeAHFgj6LhhELfOU1kZYyXEMKEyGNIQ21wJIAqAePNekOA21djGoC0gRBrlWX6iODl8XKGU3GM57HkDS0Ron7oMm7538VGX0scG3HaXFOrXN72X6V9Vnyxisjcsabkpq0pbxq4091bTt0t+TAiQy0ycCCMCJHkqL79kyg20ShR2jSNGvbQ6VwvuPTYvkW+ymE8sOGOsG4rhyYklri7j9Gn4aPd6fqpSm8WWOmaV1dprzF++1PdM6dmjbe2sjC6paDCd+WgnvaWnitBz5smhaA742/wBzTonporY/ZpG7kdmpzHfqBB/6AsL2mM0dB4Fz5fqbPDa1RLeFmkdslffk0cqZqofOqvEv4DwqsToEqT2y5X+IRmO4/RHiUhx5/tJSKCc76euaAhhqJqpKlo13bEaKhAS+U6XKHCg216y8kcaqYglTV6kngESxUKxmBsNfKvJSwynulzp4JYKIrQ7+Z5AkKqWApJu2UUIpBJNANp6y+ilpodsh5+QVUUUCzBfsHmB5qGNmZKFYFPYAmfrgpiToCJeqlVaZEHVVXixdJR3BXDbP162IzEzlLrOiqpCmgSy8bwsjJplHhTwisn+sLHaLzOUvP0VDSQZi8VHCvkgO9C9cOlKi7bZ4we1rxc4Bw3ETHiuQZds3Z2mMzU90txOk3oQtsnCZhh5aMvIkZrmPszzo9pVp/HQS5gL51ssb4TtF7ZajgdxWOvq2TLb2jQiBsVmp9Xc8eKupwnFRntXD528Nf4o5p4c2HJLLgSkpbyi3Tvi4vjfunttdovmxAnEMQ0bCaXT2yl4TV84oIdo2hlWRGgHYZTG6glvC+kx0AWedYTIxltmQR+KQ7h5qLDBg9m6D27HtiXAuaHh11K65G69dqwJ41itbq7vv22e9VseLPrmupfV1JaXo06XWlfn3VrUpb89udzIyVlaG9jZua1waGkPIF1Jid4Xy85spMeBDYQ6TtMlt1AQGg43qj83JUMeGPmp0mvexZAa1we6K1zW95wbUUrUzoFaT6rJD03FLy7XH1M8Uf/K6fP8AiIZG63UdL596/ZW9trbMnI0FsKE1r6OtBNNhZdsp1K1i2QOze5h+64jhgeUlsVuMB0VsV9oq3R0RDIMtEzwDp1V8rWyHDLYohNe6K2Yc4UlIS4yIVM2KMoabSUeN72flLyzXo+py48+vTKUsqtqtK1LdJOVbRjs3vxe58rI+TCSIr/s4cOT5v7s9GokdW1Y2WLZ2sVzxcO6PlFx8Sot+UokU991MGijBw+qw1xTnHTohxy2+X/xfI9vB0+R5fXztaqpJcRV3z3b7vZdkbr7Mx3o52Q/F6p7Uz9m0f6jf+29fS9nFmlAiRD998huYPq53Ja/7ULTN0Nmsvdy0WjzVX+Q25yGjwomiZ7F7wogKx2zvGGpIV4WJ0GY++hpgpfgOPP8AaS8Icad9694gkeXggE+7vPgP3UtNDul1H0VS6gGpWBoRLj5IBBaCQCkZoBIFyhgv2D9vOfBQ0TMlHewHG7cpmZSwnNHeFFBEvWuqkEsljq6qqvOktpnyEvNURAIiKQEREAREQBERAEREBM8Ea6RmFCJQOsZh2/tbIwT70KcM7hVv9pA4FfC9o2TpRGWgCjxoO+Zvuz3tp+RfIzEyv2Fo0XGUONJh1B33HcyR+bYul5VsDY8J8J9zhfi0ioI3FbR+KNHPL4J2caRZFusb4MR0KIJOaZHUdRGsEVWOsToR9rLNLPZm4aIdx0WfUr4wK+/Dgf1NmY1pHaQqSOLQJeEuS8IWQHDvRojYbRf3hpcJ0XbmwZMslKCtNLftxW7PF6PrcHT45YssqlGU7X9TuTapcu01VGXAaLZDAdSLD0e9K9vo3a1i5ctYYP6aGJMZ72tzvVdqi15XDW9lZxoNF7vvuPD1uXo21wrSA2N9nEFA8e6fmn4HmFpKcZJxjJa3s5f3fK/97avY58eLLimss8cvRTbjC7cG/wCpxXK5elNuFs+Evt5UrZLOdXd4aJH/AIhUdm5FnR0Mg/e06S3X8pq2cL2tEOA0z7Non8wm3neeKyjinixzc1VpLfu7X14OufV4ep6jBHBNSabk67JRa38W2lufFUsYSQAJkkAAXkmgAULccwciaTv6l47rJiGD951xduHjuXJGOp0erKSirZuGTbKLNZ2Q/gbXa41ceLiVyLPC3dranyMwz7Mbx739xPJdIz0y0IEFxB71zRrebuVSdy44d81pka4MsS7lwZA7Zcv58FDMd1OY8po8k1PqVKqJiUpVnf5LHsbkw2zIndjuxXrAiTkNdAvJgoTs8fRSFeNleQn5JfIMxx3cMdqlxoBtJ5gSWJCiypgsp7pmaUCwlI6/VVDGznuJXo9zdGQFaYc6ryGKhMBonQKXmZ6cqKG33y2qAFPcFnuu2D+VVXe6fhyVEQCIikBERAEREAREQBERAEREAK6hmPnH27BBiH7ZgoT/AJjRjtcMeeuXL1eBGcxwexxa5pmCLwdilOisoqSo65nPm821MmJNitHddgR8L9nhzB5hbLI+E8w4jS1wvB8QcRtC3bNnPDtDoRTKIeAdtZqP4eS2TKGToNqZKI0OlcRR7dxvG65atKW/3+5jGThszkTHlpmCQdYMjzCRIhdVxJO0k+K2jKuY0ZkzBcIrdRk1450PMblrdqscSGZRIb2fM0jkTes3GS5NouLdrn+TwRRNSK0F6qWPRkdwoHuA2Fw8F5r6uT83LTG92C4D4njQb/dU8AVuGRcyYcOTo57V3w/5Y3g1fxkNiuoNlHOMbff7+9zXM182HWgiJEBbBGNxfsZs1u5bOgWy0sgQ/usaxtBc1rQL9gCplTK0OAwuc5oDcT7o1DadgXJ8585H2pxaJiEDORveRcX7NQw8L7RWxlvNnjnDlc2qNOcmNmGA9XO2ky6L45KlQCseXZulSolzZEjVRS80A2dZnykquM661aI6ZJ9SwUe5JAlI68POagFWfhurzPlJTcBW+fL1NAVhzmJXzorNiSPqShlK8OYKhgrcTsCdwZhiA3ah4K5AkNawS8znisrtATwF2uQnLiiXYFw2hOqSQ756poRQVvryp63o247vMfRRygVV3RBqUQzIz1Xb8Oqqp7gIiKQEREAREQBERAEREAREQBERAFtObWcEdp0SdNrROZPfGoB2O4rXLHZjEe2G29xkPqdgFeC3GzZtxbODMaUzeBhgJc1eCdmeVqqNmsWcjHXkT290/Q8F9NlvY4X0OsU6UXL8tRNFrhcT3eJv81rMONEh+497PkcW+BV3OjKOPUjubodnNSyEd7W+YV2RYTPd0R8rR5BcSbl20j/iInFxPivOLleO73o8U/8AMcByBT1SfRf3Z2i3ZdhQhN7w353BvjUrT8te0FtWwQXnXVrP/Z3QLnbjMzNTrN6lVeRsusSXJlZSylFju0orydQua35W4eKxUULM1oIiIAiIgJUaSIgJ0qS4+vWKvAi6JnKaoihpNUA90yTrQ7ERSD3hxgaG/wAV71Avv9VWCvVke4HCihgyWGVdhHMKqkPpLXX6KFICIiAIiIAiIgCIiAIiIAiIgCIvez2Rz7rtZUSkoq26LQhKb0xVs2f2cZO04zopFIYkN5v6SH5l0DK0WgbrrwHroviZjugw4Ih9o3tCZuBoZmtJ36qags63RdJ5OAoOC3xtOKcXZy5oyjOpJp/PY1zO4sFncXNBcSGsJvDibwcKArQHNmtkz2tulFbCF0MTPzOr0EuZWuKk3uaYlUTFiQpblRZq8IsHEclQ0PFERAEREAREQBERAEREAREQBERAEREBeHEluXvpjWsVEBl6Y1jmgeNY5oiAB41jmrIiAIiIAiIgCIiAIiIAtryRHhwoRdps0gJAaQnPEynrPREXN1MdVL3PQ6DJocpJb7EWrKrYjQHaE9YInuXl/tt0NvciB2oE6Q5YcERc8MKjJNNo7cnUOcdMopr5qz4FsjF73PcZlxLjx8l4oi74W4ps8bKkpOlQREVjM84kKe9YxEkRAEREAREQBERAEREAREQBERAEREAREQH/2Q=="
+                        alt="">
+                    <h1 class="font-bold text-xl pt-2">React - The Complete Guide 2023 (incl. Rea..</h1>
+                    <p class="text-sm text-gray-600">Academind by Maximilian Schwarz...</p>
+                    <span class="text-sm">
+                        4.6
+                        <i class="fa-solid fa-star" style="color: #f7d345;"></i>
+                        <i class="fa-solid fa-star" style="color: #f7d345;"></i>
+                        <i class="fa-solid fa-star" style="color: #f7d345;"></i>
+                        <i class="fa-solid fa-star" style="color: #f7d345;"></i>
+                        <i class="fa-solid fa-star" style="color: #f7d345;"></i>
+                        (189,944)
+                    </span>
+                    <div class="font-bold mb-2">
+                        &#8377;3,199
+                    </div>
+                    <span class="text-[13px] p-1 bg-[#eceb98] font-bold">
+                        Bestseller
+                    </span>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+
+    <!-- TOP CATEGORY SECTION -->
+    <section class="px-5 py-10">
+        <h1 class="font-bold text-2xl pb-6">Top Categories</h1>
+        <div class="hidden sm:grid sm:grid-cols-3 md:grid-cols-4 sm:gap-y-6 sm:gap-x-2">
+            <div>
+                <img class="hover:scale-105 h-72 hover:ease-in-out hover:duration-300"
+                    src="https://s.udemycdn.com/home/top-categories/lohp-category-design-2x-v2.jpg" alt="">
+                <h1 class="font-bold text-lg pt-2">Design</h1>
+            </div>
+            <div>
+                <img class="hover:scale-105 h-72 hover:ease-in-out hover:duration-300"
+                    src="https://s.udemycdn.com/home/top-categories/lohp-category-development-2x-v2.jpg" alt="">
+                <h1 class="font-bold text-lg pt-2">Development</h1>
+            </div>
+            <div>
+                <img class="hover:scale-105 h-72 hover:ease-in-out hover:duration-300"
+                    src="https://s.udemycdn.com/home/top-categories/lohp-category-marketing-2x-v2.jpg" alt="">
+                <h1 class="font-bold text-lg pt-2">Marketing</h1>
+            </div>
+            <div>
+                <img class="hover:scale-105 h-72 hover:ease-in-out hover:duration-300"
+                    src="https://s.udemycdn.com/home/top-categories/lohp-category-it-and-software-2x-v2.jpg" alt="">
+                <h1 class="font-bold text-lg pt-2">IT & Software</h1>
+            </div>
+            <div>
+                <img class="hover:scale-105 h-72 hover:ease-in-out hover:duration-300"
+                    src="https://s.udemycdn.com/home/top-categories/lohp-category-personal-development-2x-v2.jpg"
+                    alt="">
+                <h1 class="font-bold text-lg pt-2">Personal Development</h1>
+            </div>
+            <div>
+                <img class="hover:scale-105 h-72 hover:ease-in-out hover:duration-300"
+                    src="https://s.udemycdn.com/home/top-categories/lohp-category-business-2x-v2.jpg" alt="">
+                <h1 class="font-bold text-lg pt-2">Business</h1>
+            </div>
+            <div>
+                <img class="hover:scale-105 h-72 hover:ease-in-out hover:duration-300"
+                    src="https://s.udemycdn.com/home/top-categories/lohp-category-photography-2x-v2.jpg" alt="">
+                <h1 class="font-bold text-lg pt-2">Photography</h1>
+            </div>
+            <div>
+                <img class="hover:scale-105 h-72 hover:ease-in-out hover:duration-300"
+                    src="https://s.udemycdn.com/home/top-categories/lohp-category-music-2x-v2.jpg" alt="">
+                <h1 class="font-bold text-lg pt-2">Music</h1>
+            </div>
+        </div>
+        <div class="sm:hidden flex flex-wrap font-bold gap-2">
+            <div class="border border-black rounded-full py-3 px-4">Design</div>
+            <div class="border border-black rounded-full py-3 px-4">Development</div>
+            <div class="border border-black rounded-full py-3 px-4">Marketing</div>
+            <div class="border border-black rounded-full py-3 px-4">IT & Software</div>
+            <div class="border border-black rounded-full py-3 px-4">Personal Development</div>
+            <div class="border border-black rounded-full py-3 px-4">Business</div>
+            <div class="border border-black rounded-full py-3 px-4">Photography</div>
+            <div class="border border-black rounded-full py-3 px-4">Music</div>
+        </div>
+    </section>
+
+
+    <!-- FEATURED TOPICS SECTION -->
+    <section class="px-5 py-10 bg-[#f7f9fa]">
+        <div class="mb-4">
+            <h1 class="font-bold text-2xl">Featured Topics by Category</h1>
+        </div>
+        <div class="grid grid-cols-2 md:flex md:justify-between">
+            <div>
+                <h1 class="md:text-xl font-bold mb-4">Development</h1>
+                <div class="mb-4">
+                    <p class="md:text-lg text-[#5624d0] underline font-bold cursor-pointer">Python</p>
+                    <span class="text-gray-600">36,354,994 students</span>
+                </div>
+                <div class="mb-4">
+                    <p class="md:text-lg text-[#5624d0] underline font-bold cursor-pointer">Web Development</p>
+                    <span class="text-gray-600">11,415,615 students</span>
+                </div>
+                <div class="mb-4">
+                    <p class="md:text-lg text-[#5624d0] underline font-bold cursor-pointer">Machine Learning</p>
+                    <span class="text-gray-600">7,070,015 students</span>
+                </div>
+            </div>
+            <div>
+                <h1 class="md:text-xl font-bold mb-4">Business</h1>
+                <div class="mb-4">
+                    <p class="md:text-lg text-[#5624d0] underline font-bold cursor-pointer">Financial Analysis</p>
+                    <span class="text-gray-600">1,195,282 students</span>
+                </div>
+                <div class="mb-4">
+                    <p class="md:text-lg text-[#5624d0] underline font-bold cursor-pointer">SQL</p>
+                    <span class="text-gray-600">5,977,561 students</span>
+                </div>
+                <div class="mb-4">
+                    <p class="md:text-lg text-[#5624d0] underline font-bold cursor-pointer">PMP</p>
+                    <span class="text-gray-600">1,733,398 students</span>
+                </div>
+            </div>
+            <div>
+                <h1 class="md:text-xl font-bold mb-4">IT & Software</h1>
+                <div class="mb-4">
+                    <p class="md:text-lg text-[#5624d0] underline font-bold cursor-pointer">Amazon AWS</p>
+                    <span class="text-gray-600">1,733,398 students</span>
+                </div>
+                <div class="mb-4">
+                    <p class="md:text-lg text-[#5624d0] underline font-bold cursor-pointer">Ethical Hacking</p>
+                    <span class="text-gray-600">10,931,066 students</span>
+                </div>
+                <div class="mb-4">
+                    <p class="md:text-lg text-[#5624d0] underline font-bold cursor-pointer">Cyber Security</p>
+                    <span class="text-gray-600">3,998,037 students</span>
+                </div>
+            </div>
+            <div>
+                <h1 class="md:text-xl font-bold mb-4">Design</h1>
+                <div class="mb-4">
+                    <p class="md:text-lg text-[#5624d0] underline font-bold cursor-pointer">Photoshop</p>
+                    <span class="text-gray-600">10,909,736 students</span>
+                </div>
+                <div class="mb-4">
+                    <p class="md:text-lg text-[#5624d0] underline font-bold cursor-pointer">Graphic Design</p>
+                    <span class="text-gray-600">3,381,052 students</span>
+                </div>
+                <div class="mb-4">
+                    <p class="md:text-lg text-[#5624d0] underline font-bold cursor-pointer">Drawing</p>
+                    <span class="text-gray-600">2,410,849 students</span>
+                </div>
+            </div>
+        </div>
+        <div
+            class="w-[90vw] border border-black flex justify-center items-center px-2 py-2 md:w-[200px] cursor-pointer hover:bg-gray-100">
+            <span class="font-bold">Explore more topics</span>
+        </div>
+    </section>
+
+
+    <!-- TRUSTED TEAMS SECTION -->
+    <section>
+        <div class="px-5 py-10">
+            <div class="flex flex-col justify-center items-center text-center">
+                <h1 class="font-bold text-xl md:text-3xl">Trusted by over 13,400 great teams</h1>
+                <p class="md:text-lg">Leading companies use the same courses to employees keep their skills fresh.</p>
+            </div>
+            <div class="grid grid-cols-3 md:items-center md:flex md:justify-around mt-6">
+                <div class="flex justify-center md:block"><img
+                        src="https://s.udemycdn.com/partner-logos/v4/nasdaq-dark.svg" alt=""></div>
+                <div class="flex justify-center md:block"><img
+                        src="https://s.udemycdn.com/partner-logos/v4/volkswagen-dark.svg" alt=""></div>
+                <div class="flex justify-center md:block"><img
+                        src="https://s.udemycdn.com/partner-logos/v4/box-dark.svg" alt=""></div>
+                <div class="flex justify-center md:block"><img
+                        src="https://s.udemycdn.com/partner-logos/v4/netapp-dark.svg" alt=""></div>
+                <div class="flex justify-center md:block"><img
+                        src="https://s.udemycdn.com/partner-logos/v4/eventbrite-dark.svg" alt=""></div>
+                <div class="flex justify-center md:block"><img
+                        src="https://s.udemycdn.com/partner-logos/v4/tcs-dark.svg" alt=""></div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- STORY SECTION -->
+    <section class="mx-6 md:mx-0 bg-[#f7f9fa] py-10">
+        <div class="border bg-white mx-6 p-6 md:w-[90vw] w-[60%] flex flex-col gap-y-10 md:flex-row md:justify-between">
+            <div class="md:w-[50%]">
+                <i class="fa-solid fa-quote-left text-2xl mb-4"></i>
+                <p>
+                    Thanks to Udemy Business, Booz Allen has armed our workforce, specifically its <span
+                        class="font-bold">data scientists, with highly relevant and in-demand tech skills</span> that
+                    are enabling consultants to stay ahead of big data trends and raise the bar on proficiency, skills,
+                    and competencies to meet client demand.
+                </p>
+                <span
+                    class="text-[#5624d0] border-[#5624d0] font-bold border-b-2 pb-[1px] px-0 md:inline-block md:mt-20 hidden">Read
+                    Full Story
+                </span>
+            </div>
+            <div class="flex gap-4 md:items-center md:flex-col md:text-center md:pt-9">
+                <img class="rounded-full h-16 md:h-28"
+                    src="https://s.udemycdn.com/home/ub-case-studies/James_Hemgen.jpeg" alt="">
+                <div>
+                    <p class="font-bold md:text-2xl md:pt-3">Jim Hemgen</p>
+                    <p class="text-gray-400 text-sm md:text-lg">Principal</p>
+                    <p class="text-gray-500 text-sm md:text-lg md:pt-4">Booz Allen Hamilton</p>
+                </div>
+            </div>
+            <div>
+                <span class="text-[#5624d0] border-[#5624d0] font-bold border-b-2 pb-[1px] px-0 md:hidden">Read Full
+                    Story</span>
+            </div>
+        </div>
+        <div class="text-[#5624d0] py-8 px-4 font-bold">
+            <p>
+                View more customer stories >
+            </p>
+        </div>
+    </section>
+
+
+    <!-- UDEMY BUISNESS SECTION -->
+    <section class="py-10 px-5">
+        <div class="md:flex md:flex-row-reverse md:justify-around">
+            <div class="flex justify-center">
+                <img class="h-[600px] md:h-[400px]"
+                    src="https://s.udemycdn.com/home/non-student-cta/UB_Promo_1200x1200.jpg" alt="">
+            </div>
+            <div class="flex flex-col justify-center p-10 items-center">
+                <div class="flex flex-col items-center w-[100%] pb-6 text-center md:text-left md:items-start">
+                    <img class="w-48 mb-4" src="https://www.udemy.com/staticx/udemy/images/v7/logo-ub.svg" alt="">
+                    <h1 class="font-bold text-4xl w-[70%]">Upskill Your Team with Udemy Buisness</h1>
+                </div>
+                <div class="text-xl">
+                    <div>
+                        <i class="fa-solid fa-circle text-[10px] pr-4"></i>
+                        Unlimited access to 22,000+ top Udemy courses, anytime, anywhere
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-circle text-[10px] pr-4"></i>
+                        International course collection in 14 languages
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-circle text-[10px] pr-4"></i>
+                        Top certifications in tech and business
+                    </div>
+                </div>
+                <div
+                    class="flex flex-col md:flex-row w-[100%] gap-2 justify-center items-center mt-4 md:justify-start md:items-start">
+                    <div
+                        class="border px-10 py-3 w-[100%] text-center bg-black text-white font-bold md:w-[200px] md:px-4 cursor-pointer hover:opacity-70">
+                        Get Udemy Buisness</div>
+                    <div
+                        class="border px-10 py-3 w-[100%] text-center border-black md:px-4 md:w-[150px] hover:bg-gray-100 cursor-pointer">
+                        Learn More</div>
+                </div>
+            </div>
+        </div>
+        <div
+            class="flex justify-center items-center flex-col sm:mx-20 py-20 lg:flex-row lg:justify-around lg:text-start text-center">
+            <div>
+                <img class="h-[200px] sm:h-[300px] md:h-[400px]"
+                    src="https://s.udemycdn.com/home/non-student-cta/instructor-2x-v3.jpg" alt="">
+            </div>
+            <div class="lg:w-[40%]">
+                <div>
+                    <h1 class="font-bold text-2xl md:text-4xl py-4 md:py-8">Become an instructor</h1>
+                    <p class="text-lg md:text-xl mb-6">
+                        Instructors from around the world teach millions of students on Udemy. We provide the tools and
+                        skills to teach what you love.
+                    </p>
+                    <span class="bg-black text-white p-3 text-lg hover:opacity-80 cursor-pointer">
+                        Start teaching today
+                    </span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- FOOTER -->
+    <footer class="bg-[#1c1d1f] text-white py-7 px-10">
+        <div class="flex flex-col md:flex-row-reverse gap-y-5 md:justify-between">
+            <div>
+                <span class="border py-2 px-5">
+                    <i class="fa-solid fa-globe"></i>
+                    English
+                </span>
+            </div>
+            <div class="flex justify-between gap-y-2 flex-col md:flex-row md:w-[70%]">
+                <div class="flex flex-col gap-y-2">
+                    <p class="cursor-pointer hover:underline">Udemy Buisness</p>
+                    <p class="cursor-pointer hover:underline">Teach on Udemy</p>
+                    <p class="cursor-pointer hover:underline">Get the app</p>
+                    <p class="cursor-pointer hover:underline">About us</p>
+                    <p class="cursor-pointer hover:underline">Contact us</p>
+                </div>
+                <div class="flex flex-col gap-y-2">
+                    <p class="cursor-pointer hover:underline">Careers</p>
+                    <p class="cursor-pointer hover:underline">Blogs</p>
+                    <p class="cursor-pointer hover:underline">Help and Support</p>
+                    <p class="cursor-pointer hover:underline">Affiliate</p>
+                    <p class="cursor-pointer hover:underline">Investors</p>
+                </div>
+                <div class="flex flex-col gap-y-2">
+                    <p class="cursor-pointer hover:underline">Terms</p>
+                    <p class="cursor-pointer hover:underline">Privacy Policy</p>
+                    <p class="cursor-pointer hover:underline">Cookie Settings</p>
+                    <p class="cursor-pointer hover:underline">Sitemap</p>
+                    <p class="cursor-pointer hover:underline">Accessibility statement</p>
+                </div>
+            </div>
+
+        </div>
+        <div class="mt-9 flex flex-col gap-y-3 md:flex-row md:justify-between">
+            <div>
+                <img class="w-24" src="https://www.udemy.com/staticx/udemy/images/v7/logo-udemy-inverted.svg" alt="">
+            </div>
+            <div>
+                <i class="fa-solid fa-copyright"></i>
+                2023 Udemy, Inc.
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="https://kit.fontawesome.com/7da929df39.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
